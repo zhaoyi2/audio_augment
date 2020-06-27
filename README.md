@@ -10,12 +10,6 @@
 - cd audio_augment
 - cd tools; make KALDI=/your_kaldi_path
 
-## Installation
-- kaldi
-- sox
-- cd audio_augment
-- cd tools; make KALDI=/your_kaldi_path
-
 ## Usage
 - cd audio_augment
 - vim run_aug.sh to change your input_path and out_path and save
