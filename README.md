@@ -2,6 +2,7 @@
 Audio augment through speech rate, volume, reverb, noise based on kaldi and sox
 
 Install
+
   kaldi
   
   sox
@@ -11,6 +12,7 @@ Install
   cd tools; make KALDI=/your_kaldi_path
   
 Usage
+
   $ cd audio_augment
   
   $ vim run_aug.sh to change your input_path and out_path and save
@@ -18,6 +20,7 @@ Usage
   $ bash run.sh, just fine!
   
 Workflow(run_aug.sh)
+
   Stage 0: Data Preparation contain data and text
   
   Stage 1: speed 0.9/1.1
@@ -33,9 +36,11 @@ Workflow(run_aug.sh)
   Stage 6: data and label generation 
 
 Example
+
   cd data/wav/train_aug listen a few enhanced audio example from aishell1 through speed/volume/RIRS/MUSAN 
   
 Reference
+
 [1] MUSAN http://www.openslr.org/17/
 
 [2] RIRS http://www.openslr.org/28/
