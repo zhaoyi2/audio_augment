@@ -17,18 +17,18 @@
 - cd tools; make KALDI=/your_kaldi_path
 
 ## Usage
-$ cd audio_augment
-$ vim run_aug.sh to change your input_path and out_path and save
-$ bash run_aug.sh, so easy!
+- cd audio_augment
+- vim run_aug.sh to change your input_path and out_path and save
+- bash run_aug.sh, so easy!
 
 ## Workflow(run_aug.sh)
-Stage 1: Data Preparation contain data and text
-Stage 2: speed 0.9/1.1
-Stage 3: volume +-db
-Stage 4: reverberation(RIRS)
-Stage 5: MUSAN(noise/music/babble)
-Stage 6: combine above data and select a subset of the augmend data list about twice the origin data
-Stage 7: data and label generation
+- Stage 1: Data Preparation contain data and text
+- Stage 2: speed 0.9/1.1
+- Stage 3: volume +-db
+- Stage 4: reverberation(RIRS)
+- Stage 5: MUSAN(noise/music/babble)
+- Stage 6: combine above data and select a subset of the augmend data list about twice the origin data
+- Stage 7: data and label generation
 
 ## generated Examples
 
