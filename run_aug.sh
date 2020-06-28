@@ -11,7 +11,6 @@ data=data
 NOISE_DIR=../kaldi-master/egs/sre16/v2/noise
 audio_dir=../speech/aishell/train/
 out_data=data/wav/train_aug
-tmp_dir=data/train
 logdir=log
 nj=10
 stage=-1
