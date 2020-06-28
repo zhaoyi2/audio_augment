@@ -123,6 +123,6 @@ if [ $stage -le 6 ]; then
   $cmd JOB=1:$nj $logdir/add_noise.JOB.log \
     bash $logdir/command.JOB.sh || exit 1;
 
-  echo "Sucessed corrupting the wave files."
+  echo "Sucessed generate the wave files."
 fi
   
