@@ -26,7 +26,7 @@
 
 ## generated Examples
 
-- cd data/wav/train_aug listen a few enhanced audio example from aishell1 through speed/volume/RIRS/MUSAN.
+- cd data/wav/train_aug listen a few enhanced aishell1 audio example through speed/volume/RIRS/MUSAN.
 
 ### Reference
 - MUSAN http://www.openslr.org/17/
