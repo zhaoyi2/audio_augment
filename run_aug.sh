@@ -120,7 +120,7 @@ if [ $stage -le 6 ]; then
 
   utils/split_scp.pl $data/train_aug_24k/wav.scp_new $split_command || exit 1;
 
-  $cmd JOB=1:$nj $logdir/add_noise.JOB.log \
+  $cmd JOB=1:$nj $logdir/run_aug.JOB.log \
     bash $logdir/command.JOB.sh || exit 1;
 
   echo "Sucessed generate the wave files."
