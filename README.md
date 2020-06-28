@@ -31,4 +31,4 @@
 ### Reference
 - MUSAN http://www.openslr.org/17/
 - RIRS http://www.openslr.org/28/
-- https://github.com/linan2/add_reverb2.git
+- https://github.com/linan2/add_reverb2
