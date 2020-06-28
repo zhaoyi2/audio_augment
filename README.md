@@ -2,7 +2,7 @@
 
 (README.md)
 
-*Audio augment* is an audio augment tool through speed, volume, reverb, noise based on kaldi and sox.
+*Audio augment* is a tool/script for batch audio data augmenation through speed, volume, reverb, noise based on kaldi and sox.
 
 ## Installation
 - kaldi
