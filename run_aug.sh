@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Copyright 2018 Zhao Yi
+# Copyright 2020 Zhao Yi
 #需要建立路径，存放下载的数据
 . ./cmd.sh
 . ./path.sh
